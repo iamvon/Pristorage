@@ -290,7 +290,7 @@ export default function MainLayout({children}) {
             >
                 <div className="input-group mb-3 d-block">
                     <div className="form-label"><b>Web3Storage Token</b></div>
-                    <div>You can get or create your token at this <a href="https://web3.storage/account/" target="_blank">link</a></div>
+                    <div>You can get or create your token at this <a href="https://web3.storage/tokens/" target="_blank">link</a></div>
                     <TextArea 
                         placeholder="Web3Storage Token" 
                         onChange={handleChange('token')}

@@ -31,7 +31,7 @@ Step 0: Install near-cli
 
 [near-cli] is a command line interface (CLI) for interacting with the NEAR blockchain. It was installed to the local `node_modules` folder when you ran `yarn install`, but for best ergonomics you may want to install it globally:
 
-    yarn install --global near-cli
+    yarn global add near-cli
 
 Or, if you'd rather use the locally-installed version, you can prefix all `near` commands with `npx`
 
@@ -41,7 +41,7 @@ Ensure that it's installed with `near --version` (or `npx near --version`)
 Step 1: Create an account for the contract
 ------------------------------------------
 
-Each account on NEAR can have at most one contract deployed to it. If you've already created an account such as `your-name.testnet`, you can deploy your contract to `Vi storage 2.0.your-name.testnet`. Assuming you've already created an account on [NEAR Wallet], here's how to create `Vi storage 2.0.your-name.testnet`:
+Each account on NEAR can have at most one contract deployed to it. If you've already created an account such as `YOUR-ACCOUNT-NAME.testnet`, you can deploy your contract to `vi-storage.YOUR-ACCOUNT-NAME.testnet`. Assuming you've already created an account on [NEAR Wallet], here's how to create `vi-storage.your-name.testnet`:
 
 1. Authorize NEAR CLI, following the commands it gives you:
 
