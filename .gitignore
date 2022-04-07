@@ -34,3 +34,6 @@ yarn-error.log*
 /dist/*.html
 /out
 /contract/target/*
+yarn.lock
+.env
+package-lock.json

@@ -1,4 +1,5 @@
-const CONTRACT_NAME = process.env.CONTRACT_NAME || 'manhndev.testnet'
+require('dotenv').config();
+const CONTRACT_NAME = process.env.CONTRACT_NAME || "vi-storage.tuanpm.testnet"
 
 function getConfig(env) {
   switch (env) {
